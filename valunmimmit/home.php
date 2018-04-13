@@ -19,11 +19,10 @@ get_header(); ?>
 			<div class="articles-wrapper">
 
 				<?php while ( have_posts() ) : the_post(); ?>
-					<a href="<?php the_permalink(); ?>" class="article-box">
-						<?php the_post_thumbnail( 'medium' ); ?>
-						<div class="overlay-filter"></div>
-						<h3><?php the_title(); ?></h3>
-					</a>
+					
+					
+
+					
 				<?php endwhile; ?>
 
 			</div>
